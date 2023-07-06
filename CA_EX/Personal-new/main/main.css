@@ -1,0 +1,145 @@
+
+/*#469597
+#5BA199
+#BBC6C8
+#E5E3E4
+#DDBEAA*/
+body{
+    margin: 0;
+    padding: 0;
+}
+/* this is nav bae */
+.nav{
+    background-color: #F3F1F0;
+    
+}
+
+/* blk1 */
+.blk1{
+    
+    width: 100%;
+    background-color:#D3D5CB;
+}
+
+.blk1-showMe{ 
+    width: 100%;
+    display: flex;
+    position:relative;
+    
+}
+.blk1-showMe > img{
+    width: 50%;
+}
+.text-box{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #E8E1D9;
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 40%;
+  height: 150px;
+  text-align: left;
+  padding-top:20px;
+  
+}
+
+.blk1-button{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* blk2 */
+.blk2{
+    background-color:#9FA38D;
+    text-align: left;
+    margin-bottom: 0;
+    padding:3%;
+}
+.blk2 h3{
+    text-align: center;
+}
+.blk2 > p{
+    text-align: left;
+    margin-bottom: 0;
+}
+/* blk3 */
+.blk3{
+    margin: 0;
+    text-align: center;
+
+}
+.blk3-skills{
+    padding:10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E6E1DC;
+    border-radius: 10px 0px 10px 0;
+    height: auto;
+    width: 90%;
+}
+
+@media (max-width: 767.98px) { 
+    .blk3-skills{
+    background-color: #B7E6FF; 
+    } 
+    .blk4place{
+        width:100%;
+    }
+}
+
+
+
+
+/* blk4 */
+.blk4-top{
+    text-align: center;
+}
+.blk4-nav{
+    display: flex;
+    justify-content: space-around;
+}
+.blk4place{
+    display: none;
+    justify-content: center;
+}
+
+.china{
+    display: flex;
+}
+
+.card > img{
+    width:100%;
+    height: 900px;
+}
+
+.card{
+    background-color:#D3D5CB ;
+    width:auto;
+    
+}
+.row{
+    width: 100%;
+}
+/* contact me */
+.Contactme{
+    text-align: left;
+    background-color: rgb(232,225,217);
+    display: flex;
+}
+.Contactme>img{
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contactInfo{
+    margin: auto;
+}
+.contactInfo>h3{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.contactInfo > p {
+    font-size: 20px;
+}
